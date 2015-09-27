@@ -83,7 +83,7 @@ function playToFive() {
     if (playerWins == 5 || computerWins == 5) {
         return [playerWins, computerWins];
     } else {
-        getInput();
+        getWinner();
     }
     
     return [playerWins, computerWins];
